@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <button type="button">Please do not submit</button>
+        <p>
+            <label for="username">Enter your username:</label>
+            <input type="text" placeholder="username" id="username">
+        </p>
+        <p>
+            <label for="password">Enter your password:</label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="ID number">Insert your ID number:</label>
+            <input type="number" placeholder="insert number" id="ID number">
+        </p>
+        <p>
+            <label> Pick your preffered color:
+                <input type="color">
+            </label>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+
+    <form action=" https://www.google.com/search">
+        <p>
+            <input type="text" name="q">
+            <button type="submit">Google search</button>
+        </p>
+    </form>
+    <h2>Terms of service</h2>
+    <p>You are required to use this service within the confines of the organisation</p>
+    <form action="/tacos">
+        <input type="checkbox" name="agree TOS" id="agree">
+        <label for="agree">I agree</label>
+
+        <h3>Pick your shirt size and brand</h3>
+        <p>
+            <input type="radio" name="size" id="S" value="Small">
+            <label for="S">Small</label>
+            <input type="radio" name="size" id="M" value="Medium">
+            <label for="M">Medium</label>
+            <input type="radio" name="size" id="L" value="large">
+            <label for="L">large</label>
+        </p>
+
+        <p>
+        <h3><label for="brand">Pick your desired shirt brand</label></h3>
+        <select name="shirt type" id="brand">
+            <option value="">Select shirt brand</option>
+            <option value="Louis vutton">Louis vutton</option>
+            <option value="Ralph Lauren">Ralph Lauren</option>
+            <option value="Tommy hilfiger">Tommy hilfiger</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="Shirt number">Please select the numbers of shirt</label>
+            <input type="range" name="Number of shirts" id="Shirt number" value="Shirt number">
+        </p>
+        <p>
+            <label for="comments">Please add any additional information</label>
+            <textarea name="comments" id="comments" cols="15" rows="5" placeholder="Additional info"></textarea>
+        </p>
+        <p><button type="submit">Submit</button></p>
+    </form>
+
+
+</body>
+
+</html>
