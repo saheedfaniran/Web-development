@@ -1,5 +1,9 @@
 h1 {
+    text-align: center;
+    text-decoration: underline;
     color: green;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -7,11 +11,14 @@ h2 {
 }
 
 p {
-    color: white;
-    background-color: black;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: avant garde;
+    line-height: 2;
+    color: rgb(10, 10, 10);
 }
 
 button {
     color: red;
-    background-color: pink;
+    background-color: rgb(235, 119, 52);
 }
